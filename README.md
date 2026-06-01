@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+FraudGuard – AI-Based Fraud Detection and Risk Assessment System
+Overview
 
-# Run and deploy your AI Studio app
+FraudGuard is a web-based application designed to detect potentially fraudulent financial transactions and assess associated risks. The system provides real-time transaction analysis, fraud prediction, risk scoring, dashboard analytics, and threat alerts to help users identify suspicious activities and improve transaction security.
 
-This contains everything you need to run your app locally.
+The project demonstrates the application of Artificial Intelligence concepts, data analytics, and modern web technologies in creating an intelligent fraud monitoring platform.
 
-View your app in AI Studio: https://ai.studio/apps/d1e88e74-f61f-4942-a50c-040b5ee3f07d
+Features
+Real-Time Fraud Prediction
+Transaction Risk Assessment
+Interactive Dashboard Analytics
+Live Threat Alerts
+Transaction Monitoring
+Risk Score Generation
+Visual Reports and Insights
+Responsive User Interface
+Fraud Trend Analysis
+User-Friendly Navigation
 
-## Run Locally
+Technologies Used
+Frontend
+React.js
+TypeScript
+Tailwind CSS
+Lucide React
+Vite
 
-**Prerequisites:**  Node.js
+Development Tools
+Visual Studio Code
+GitHub
+Google Cloud Run
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Home Page
+
+Provides an overview of the FraudGuard system, its features, and navigation options.
+
+2. Dashboard
+
+Displays transaction statistics, fraud trends, risk distributions, and analytical insights through charts and visual reports.
+
+3. Live Prediction
+
+Allows users to enter transaction details and receive instant fraud analysis results along with risk assessments.
+
+4. Threat Alerts
+
+Generates alerts and notifications for suspicious or high-risk transactions to support proactive fraud management.
+
+System Workflow
+User enters transaction details.
+System processes transaction data.
+Fraud analysis is performed.
+Risk score is calculated.
+Fraud prediction is generated.
+Dashboard is updated with analytics.
+Threat alerts are generated for suspicious transactions.
+Results are displayed to the user
