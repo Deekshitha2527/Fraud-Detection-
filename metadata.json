@@ -1,0 +1,6 @@
+{
+  "name": "FraudGuard",
+  "description": "An AI-powered fraud detection dashboard showcasing real-time transaction monitoring, anomaly detection, and risk scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
